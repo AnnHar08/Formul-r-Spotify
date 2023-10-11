@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="topp">
+      <img class="e" src="logoblackback.png" />
+    </div>
+    <div class="mittdel">
+        <div class= "textruta">
+            <h2>Logga in på Spotify</h2>
+            <form action="https://httpbin.org/anything" method="post">
+            <div class="google">
+                <h3> Fortsätt med Google</h3>
+            <div class="facebook">
+                <h3> Fortsätt med Facebook</h3>
+            <div class="apple">
+                <h3> Fortsätt med Apple</h3>
+            </div>      
+            <hr class="linje">
+            <div class="email">
+                <label for="email">E-postadress eller användarnamn</label>
+                <input id="email" name="email" type="email" required />
+            </div>
+            <div class="password">
+                <label for="pass">Lösenord</label>
+                <input id="pass" name="password" type="password" required />
+            </div>
+            <div class="message">
+                <label for="msg">Message</label>
+                <textarea id="msg" name="message"></textarea>
+            </div>
+
+            <div class="music">
+                <label for="musicSelect">Välj musikstil</label>
+                 <select name="music" id="musicSelect" required>
+                    <option value="">Please choose a musicstyle</option>
+                    <option value="pop">Pop</option>
+                    <option value="rock">Rock</option>
+                    <option value="classic">Classic</option>
+                </select>
+            </div>
+
+            <div class="membership">
+                <p>Select membership</p>
+                <input type="radio" value="standard" name="membership" id="Standard" /><label
+                for="Standard"
+                >Standard</label
+                >
+          <input type="radio" value="premium" name="membership" id="Premium" /><label
+            for="Premium"
+            >Premium</label
+          >
+          <input type="radio" value="delux" name="membership" id="Delux" /><label
+            for="Delux"
+            >Delux</label
+          >
+        </div>
+        <div class="send">
+          <button type="submit">Skicka</button>
+        </div>
+        </form>
+    </div>
+  </body>
+</html>
